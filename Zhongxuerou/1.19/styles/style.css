@@ -1,0 +1,92 @@
+html {
+  background-color: rgb(211, 208, 208);
+  margin: -1px;
+  font-family:"微软雅黑";
+}
+
+p {
+  text-indent: 2em;
+}
+
+[name=passage1],
+[name=passage2],
+[name=picture],
+[name=passage3],
+[name=bar]{
+  display: block;
+  margin: 20px 10px;
+  background-color: white;
+  box-shadow: 2px 2px 3px black;
+  padding: 0 20px 20px 20px;
+}
+
+[for=post],
+[for=password],
+[for=password1],
+[for=gender],
+[for=city],
+[for=intrest],
+[for=description]{
+  display:inline-block;
+  width:150px;
+  text-align:right
+}
+
+h2,h3{
+color:gray;
+}
+
+[name=pic1],
+[name=pic2],
+[name=pic3],
+[name=pic4],
+[name=pic5],
+[name=pic6]{
+  display: block;
+  margin: 30px 900px 30px 30px;
+  border: 1px solid rgb(99, 98, 98);
+  text-align: center;
+  box-shadow: 1px 1px 2px rgb(145, 145, 145);
+}
+
+[name=ranking]{
+  padding: 0 0 0 20px;
+}
+
+table{
+  width:1150px;
+  margin: 0 auto;
+  text-align:left; 
+  border:none;
+  border-spacing:none;
+}
+
+[name=sidebar]{
+  height:50px;
+  display: block;
+  border-left: 5px solid rgb(172, 171, 171);
+  line-height: 45px;
+}
+
+[name=inbar]{
+  display: block;
+  padding: 0 0 0 150px;
+  line-height:2em;
+}
+
+[name=description]{
+  width:700px;
+  height: 100px;
+  vertical-align:top;
+}
+
+button{
+  display: block;
+  margin: 20px 20px;
+  border-radius: 5px 5px;
+  background-color: rgb(20, 107, 189);
+  color:white;
+  text-align: center;
+  width:1150px;
+  height:35px;
+}
