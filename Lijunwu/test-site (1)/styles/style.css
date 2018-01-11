@@ -23,24 +23,27 @@ p, li {
 }
 
 .id1 {
-  border: 3px solid gray;
+  border: 1px solid #CCC;
   background-color: #FFFFFF;
   padding: 0px ;
   margin: 0 2px 5px 2px;
+  box-shadow:1.4px 1.4px #726969;
 }
 
 .id2 {
-  border: 3px solid gray;
+  border: 1px solid #CCC;
   background-color: #FFFFFF;
   padding: 0px ;
   margin: 0 2px 5px 2px;
+  box-shadow:1.4px 1.4px #726969;
 }
 
 .id3 {
-  border: 3px solid gray;
+  border: 1px solid #CCC;
   background-color: #FFFFFF;
   padding: 0px ;
   margin: 0 2px 5px 2px;
+  box-shadow:1.4px 1.4px #726969;
 }
 
 .id4 {
@@ -53,17 +56,19 @@ p, li {
 
 .id5 {
   text-align:left;
-  border: 3px solid gray;
+  border: 1px solid #CCC;
   background-color: #FFFFFF;
   padding: 0px ;
   margin: 0 2px 5px 2px;
+  box-shadow:1.4px 1.4px #726969;
 }
 
 .id6 {
-  border: 3px solid gray;
+  border: 1px solid #CCC;
   background-color: #FFFFFF;
   padding: 0px ;
   margin: 0 2px 5px 2px;
+  box-shadow:1.4px 1.4px #726969;
 }
 
 .id7 {
