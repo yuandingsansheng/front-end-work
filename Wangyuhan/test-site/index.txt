@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>My test page</title>
+	</head>
+	<body>
+		<h3>My First Test<h3>
+		<img src="images/my-image.png" alt="My test image">
+	</body>
+<html>

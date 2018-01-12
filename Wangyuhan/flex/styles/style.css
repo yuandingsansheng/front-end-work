@@ -1,0 +1,38 @@
+*{
+    box-sizing:content-box;/* 伸缩项目自动box-sizing:border-box，所以需调整为content-box */
+    margin:0;
+    padding:0;
+}
+
+body {
+    display: flex;
+    flex-direction:column;
+}
+
+header,footer{
+    background-color: #ccc;
+    flex:0 0 50px;
+    text-align: center;
+    margin:0.5em;
+}
+
+#container{
+    display: flex;
+    flex:auto;
+    justify-content:space-between;
+}
+
+#main{
+    flex: auto;
+    height: 400px;
+    background: #4DBCB0;
+}
+#left,#right{
+    flex:0 0 160px;
+    height: 400px;
+    background: #98BEBA;
+    margin:0 0.5em;
+}
+#left{
+    order: -1;
+}
