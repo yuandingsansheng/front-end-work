@@ -1,0 +1,40 @@
+header,
+footer {
+    background-color: rgb(214, 5, 5);
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    margin: 10px 0;
+}
+
+p {
+    text-indent: 2em;
+    font-size: 15;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.layout {
+    margin: 10px 0;
+    display: flex;
+    min-height: 100px;
+    justify-content: center;
+}
+
+.layout_main {
+    flex: 1;
+    background-color: #71c3e4;
+}
+
+aside {
+    width: 200px;
+    background-color: #b5e0f1;
+}
+
+.layout_aside:not(:first-child),
+.layout_main:not(:first-child){
+    margin-left: 10px;
+}
