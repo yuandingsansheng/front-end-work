@@ -1,0 +1,33 @@
+[class $= 'face'] {
+    margin: 16px;
+    padding: 4px;
+    background-color: #e7e7e7;
+    width: 104px;
+    height: 104px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    -webkit-box-shadow: inset 0 5px white, inset 0 -5px #bbb, inset 5px 0 #d7d7d7, inset -5px 0 #d7d7d7;
+    box-shadow: inset 0 5px white, inset 0 -5px #bbb, inset 5px 0 #d7d7d7, inset -5px 0 #d7d7d7;
+    border-radius: 10%;
+}
+.first-face {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pip {
+    display: block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin: 4px;
+    background-color: #333;
+    -webkit-box-shadow: inset 0 3px #111, inset 0 -3px #555;
+    box-shadow: inset 0 3px #111, inset 0 -3px #555;
+}
