@@ -1,0 +1,38 @@
+
+header,footer{
+    background-color: #ccc;
+    text-align: center;
+    line-height: 50px;
+    margin:0.5em 0;
+}
+
+#container{
+    height: 400px;
+}
+
+.col {
+    float: left;
+}
+
+#main {
+    width: 100%;
+}
+
+#main-wrap{
+    margin: 0 200px;
+    height: 400px;
+    background: #4DBCB0;
+}
+#left {
+    width: 190px;
+    height: 400px;
+    margin-left: -100%;
+    background: #98BEBA;
+}
+
+#right{
+    width: 190px;
+    height: 400px;
+    margin-left:-190px;
+    background: #98BEBA;
+}

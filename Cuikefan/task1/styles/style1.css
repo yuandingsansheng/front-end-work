@@ -1,0 +1,109 @@
+html{
+    background-color: rgba(0, 0, 0, 0.856);
+}
+
+h1{
+    color: black;
+}
+
+h2{
+    color: dimgrey;
+}
+
+h6{
+    color: grey;
+}
+
+body{
+    background-color: rgb(209, 205, 205);
+    margin: 30px 0;
+    padding: 1px 2px;
+}
+
+p{
+    color: black;
+}
+img{
+    align-self: auto;
+    width: 40;
+    height: 40;
+}
+
+div.head{
+    background-color: white;
+    margin: 30px 20px;
+    padding: 20px 10px;
+    border: 0;
+    box-shadow:1px 1px grey;
+}
+
+div.img{
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 180px;
+    box-shadow:0;
+}
+div.img img {
+    width: 100%;
+    height: auto;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+    box-shadow:0;
+}
+div.form_ele{
+    margin:0 auto;
+    padding:5px;
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid rgb(184, 183, 183);
+    width: 100%;
+}
+td,th{
+    border:1px solid rgb(182, 179, 179);
+}
+th{
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
+tr.last{
+    font-weight: bold;
+    background-color: rgb(187, 183, 183)
+}
+form{
+    margin: 0 auto;
+    width: 0 auto;
+    padding: 1em;
+}
+label{
+    display: inline-block;
+    text-align: right;
+    width:180px;
+}
+input{
+    font: 1em sans-serif;
+    width: 0 auto;
+    box-sizing: border-box;
+    margin:5px;
+}
+textarea{
+    font: 1em sans-serif;
+    vertical-align: top;
+    height: 10em;
+    width: 500px;
+}
+
+button{
+    padding: 5px;
+    width:100%;
+    background-color: rgb(75, 75, 231);
+    border-radius: 5px;
+    color: white;
+}
+div.sidebar{
+    background-color: gray;
+    width: 10px;
+    height: 20px;
+}
