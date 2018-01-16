@@ -4,41 +4,49 @@ body {
 
 .container {
     display: flex;
-    width: 980px;
-    padding: 0 88px;
-    height: 1386px;
-    margin: 0 auto;
     flex-direction: column;
     align-content: flex-start;
+
+    margin: 0 auto;
+    padding: 0 88px;
+    width: 980px;
+    height: 1386px;
 }
 header {
     display: block;
+
+    margin: 0 auto;
     height: 61px;
     width:892px;
-    margin: 0 auto;
 }
 
 .block1 {
     float: left;
+
     width:110px;
     height:61px;
+
     background-color: #D14949;
 }
 
 #theUrl {
-    line-height:75px;
     margin-left: 6px;
     font-family: "黑体";
     font-size:12px;
+    line-height:75px;
+
     color:#ffffff;
 }
 
 .date {
-    line-height:90px;
-    height: 61px;
     float: right;
-    font-size: 12px;
+
+    height: 61px;
+    
     font-family: "黑体";
+    font-size: 12px;
+    line-height:90px;
+
     color:#d45d5c;
 }
 
