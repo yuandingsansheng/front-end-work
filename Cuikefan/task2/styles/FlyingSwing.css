@@ -7,8 +7,8 @@ header{
     line-height: 50px;
     margin: 5px 0;
 }
-#main-warp{
-    margin: 0 180px;
+#main-wrap{
+    margin: 0 200px;
 }
 .col{
     float: left;
