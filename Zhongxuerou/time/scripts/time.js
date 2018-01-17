@@ -1,9 +1,9 @@
 function showTime() {
     var date = new Date(); //创建对象  
     var y = date.getFullYear(); //获取年份  
-    var m = date.getMonth() + 1; //获取月份  返回0-11  
+    var m = date.getMonth() + 1; //获取月份   
     var d = date.getDate(); // 获取日  
-    var w = date.getDay(); //获取星期几  返回0-6   (0=星期天)
+    var w = date.getDay(); //获取星期几
     var h = date.getHours();
     var minute = date.getMinutes()
     var s = date.getSeconds();
@@ -32,7 +32,7 @@ function showTime() {
 
     document.getElementById('now-time').innerHTML = y + "-" + m + "-" + d + "  " + w + "<br/>" + h + ":" + minute + ":" + s + "   ";
 
-    setTimeout('showTime()', 1000); //每一秒中重新加载startTime()方法 
+    setTimeout('showTime()', 1000); 
 
 }
 
