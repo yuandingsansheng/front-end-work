@@ -1,20 +1,23 @@
 body{
-    margin:0 auto;
-    width: 1280px;
+    margin: 0;
+    width: 100%;
     height: 4554px;
 }
 
-header{
-    position: absolute;
-
+div.container_body{
+    margin: 0 auto;
     width: 1280px;
+    height: 100%;
+}
+
+header{
+    width: 100%;
     height: 56px;
 }
 
 div.img{
-    position: absolute;
-    top: 13px;
-    left: 59px;
+    float: left;
+    margin: 13px 0 0 59px;
 
     width: 31px;
     height: 31px;
@@ -23,9 +26,8 @@ div.img{
 }
 
 div.title_left{
-    position: absolute;
-    top: 18px;
-    left: 101px;
+    float: left;
+    margin: 18px 0 0 11px;
 
     font-family: SimHei;
     font-size: 21px;
@@ -34,9 +36,8 @@ div.title_left{
 }
 
 div.title_right{
-    position: absolute;
-    top: 17px;
-    left: 701px;
+    float: left;
+    margin: 17px 0 0 538px;
 
     font-family: 'MicrosoftYaHei';
     font-size: 14px;
@@ -51,9 +52,8 @@ div.title_right span{
 }
 
 div.login_img{
-    position: absolute;
-    top: 22px;
-    left: 1166px;
+    float: left;
+    margin: 16px 0 0 31px;
 
     width: 14px;
     height: 17px;
@@ -62,11 +62,8 @@ div.login_img{
 }
 
 div.login{
-    position: absolute;
-    top: 17px;
-    left: 1185px;
-
-
+    float: left;
+    margin: 15px 0 0 5px;
     font-family: 'MicrosoftYaHei';
     font-size: 14px;
     line-height: 27px;
@@ -74,10 +71,9 @@ div.login{
 }
 
 div.line0{
-    position: absolute;
-    top: 52px;
+    position: relative;
+    top: 51px;
     left: 681px;
-
 
     width: 65px;
     height: 5px;
@@ -86,19 +82,15 @@ div.line0{
 }
 
 div.pic1{
-    position: absolute;
-    top: 61px;
-
     width: 100%;
     height: 691px;
 
     background-image: url(../images/one.png);
     background-repeat: no-repeat;
-    /*background-size: contain;*/
 }
 
 div.content_time{
-    position: absolute;
+    position: relative;
     top: 230px;
     left: 117px;
 
@@ -109,8 +101,8 @@ div.content_time{
 }
 
 div.content0{
-    position: absolute;
-    top: 310px;
+    position: relative;
+    top: 250px;
     left: 124px;
 
     width: 295px;
@@ -122,31 +114,27 @@ div.content0{
     color: #ffffff;
 }
 
-button.start{
-    position: absolute;
-    top: 429px;
+a.start{
+    display: block;
+    position: relative;
+    top: 306px;
     left: 126px;
 
-    border: none;
     width: 331px;
     height: 65px;
 
     font-family: 'MicrosoftYaHei';
     font-size: 30px;
     letter-spacing: 3px;
+    line-height: 60px;
     text-align: center;
+    text-decoration: none;
 
     color: #ffffff;
     background-color: #e7504d;
 }
 
 div.ul{
-    position: absolute;
-    top: 747px;
-    
-    width: 1280px;
-    height: 250px;
-
     font-family: 'SimHei';
     font-size: 14px;
     text-align: center;
@@ -179,12 +167,11 @@ ul.ul1 li{
     float: left;
 
     width: 154px;
-    height: 32px;
     text-align: center;
 }
 
 ul.ul2{
-    margin-top: 42px;
+    margin-top: -50px;
 }
 
 ul.ul2 li{
@@ -201,10 +188,7 @@ ul.ul2 li+li{
 }
 
 div.title{
-    position: absolute;
-    top: 997px;
-
-    width: 1280px;
+    width: 100%;
     height: 360px;
 
     font-family: 'SimHei';
@@ -227,10 +211,7 @@ div.title img{
 }
 
 div.city_banner{
-    position: absolute;
-    top: 1357px;
-
-    width: 1280px;
+    width: 100%;
     height: 341px;
 
     text-align: center;
@@ -239,8 +220,8 @@ div.city_banner{
 }
 
 p.one{
-    margin:53px 0 0 0;
-
+    margin: 0;
+    padding-top: 53px;
     font-family: 'MicrosoftYaHei';
     font-size: 21px;
 
@@ -290,7 +271,8 @@ option{
 
 
 button.search{
-    margin-left: 14px;
+    position: relative;
+    left: 10px;
 
     border: none;
     width: 236px;
@@ -306,21 +288,17 @@ button.search{
 }
 
 div.act{
-    position: absolute;
-    top: 1698px;
-
-    width: 1280px;
+    width: 100%;
     height: 605px;
 
-    background-color: #f8f8f7;
+    background-color: #f7f7f7;
     background-image: url(../images/图三－图六.png);
     background-repeat: no-repeat;
-    background-position-x: 156px;
-    background-position-y: 112px;
+    background-position: 156px 112px;
 }
 
-div.text_img{
-    position: absolute;
+/* div.text_img{
+    position: relative;
     top: 104px;
     left: 221px; 
 
@@ -329,22 +307,23 @@ div.text_img{
 
     background-image: url(../images/text_img.png);
     background-repeat: no-repeat;
-}
+} */
+
 
 div.beijing{
-    position: absolute;
+    position: relative;
     top: 101px;
-    left: 148px;
+    left: 148px; 
 
-    border: 1px solid #e1e1e1;
+    border: 1px solid #dadada;
 
     width: 219px;
     height: 337px;
 }
 
 div.shanghai{
-    position: absolute;
-    top: 153px;
+    position: relative;
+    top: -188px;
     left: 403px;
 
     border: 1px solid #e1e1e1;
@@ -354,8 +333,8 @@ div.shanghai{
 }
 
 div.shenzhen{
-    position: absolute;
-    top: 101px;
+    position: relative;
+    top: -580px;
     left: 659px;
 
     border: 1px solid #e1e1e1;
@@ -365,8 +344,8 @@ div.shenzhen{
 }
 
 div.hongkong{
-    position: absolute;
-    top: 101px;
+    position: relative;
+    top: -920px;
     left: 915px;
 
     border: 1px solid #e1e1e1;
@@ -375,16 +354,38 @@ div.hongkong{
     height: 337px;
 }
 
-div.newworld{
-    position: absolute;
-    top: 2303px;
+p.act{
+    margin: -60px 0 0 0;
 
-    width: 1280px;
+    font-family: 'SimHei';
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 28px;
+}
+
+p.act0{
+    margin: 340px 0 0 0;
+    font-family: 'SimHei';
+    font-size: 15px;
+    text-align: center;
+}
+
+p.act1{
+    margin: 8px 0;
+    font-family: 'MicrosoftYaHei';
+    font-size: 12px;
+    text-align: center;
+
+    color: #818181;
+}
+
+div.newworld{
+    width: 100%;
     height: 567px;
 }
 
 div.pic_left{
-    position: absolute;
+    float: left;
 
     width: 850px;
     height: 566px;
@@ -399,8 +400,7 @@ div.pic_left{
 }
 
 p.newworld{
-    margin: 0;
-    margin-top: 131px;
+    margin: 130px 0 0 0;
 
     font-size: 49px;
     line-height: 49px;
@@ -423,9 +423,8 @@ p.time{
 }
 
 div.tri-left{
-    position: absolute;
-    top: 267px;
-    left: 826px;
+    position: relative;
+    top: -160px;
 
     border-top: 15.5px solid transparent;
     border-right: 26px solid #ffffff;
@@ -433,87 +432,71 @@ div.tri-left{
 }
 
 div.pic_right{
-    position: absolute;
-    left: 850px;
+    float: left;
 
     width: 430px;
     height: 567px;
 }
 
 div.pic_right img{
-    position: absolute;
-    top: 165px;
-    left: 163px;
-
-    width: 103px;
-    height: 20px;
+    margin: 165px 0 0 163px;
 }
 
 div.pic_right p{
-    position: absolute;
-    top: 216px;
-    left: 72px;
-
-    margin: 0;
+    margin-left: 72px;
     width: 288px;
-    height: 102px;
 
     font-family: 'SimSun';
     font-size: 12px;
     line-height: 30px;
-    text-align: left;
 
     color: #aaaaaa;
 }
 
-button.more{
-    position: absolute;
-    top: 367px;
-    left: 162px;
+a.more_button{
+    display: block;
 
+    margin-left: 165px;
     border: 1px solid #e25c60;
     width: 107px;
     height: 35px;
 
     font-family: 'MicrosoftYaHei';
     font-size: 12px;
+    line-height: 35px;
+    text-decoration: none;
+    text-align: center;
 
     color: #e25c60;
     background-color: #ffffff;
 }
 
-div.pic_right img.one{
-    position: absolute;
-    top: 426px;
-    left: 186px;
+div.round_black{
+    float: left;
 
+    margin: 24px 0 0 186px;
+    border: 1px solid #929292;
+    border-radius: 1em;
     width: 12px;
     height: 12px;
+
+    background-color: #929293;
 }
 
-div.pic_right img.two{
-    position: absolute;
-    top: 426px;
-    left: 211px;
+div.round{
+    float: left;
 
+    margin: 24px 0 0 14px;
+    border: 1px solid #b2b2b3;
+    border-radius: 1em;
     width: 12px;
     height: 12px;
-}
 
-div.pic_right img.three{
-    position: absolute;
-    top: 426px;
-    left: 236px;
-
-    width: 12px;
-    height: 12px;
+    background-color: #ffffff;
 }
 
 div.last{
-    position: absolute;
-    top: 2869px;
-
-    width: 1280px;
+    width: 100%;
     height: 521px;
 
     font-family: 'SimHei';
@@ -525,7 +508,7 @@ div.one,
 div.two{
     float: left;
 
-    width: 426px;
+    width: 425px;
     height: 521px;
 }
 
@@ -563,8 +546,10 @@ div.line3{
     background-color: #ababab;
 }
 
-button.searchmore1{
-    margin-top: 25px;
+a.searchmore1{
+    display: block;
+
+    margin: 25px 0 0 128px;
     border: 1px solid #ffffff;
 
     width: 170px;
@@ -572,14 +557,18 @@ button.searchmore1{
 
     font-family: 'SimHei';
     font-size: 21px;
+    line-height: 44px;
     text-align: center;
+    text-decoration: none;
 
     color: #ffffff;
     background-color: #e74f4d;
 }
 
-button.searchmore2{
-    margin-top: 25px;
+a.searchmore2{
+    display: block;
+
+    margin: 25px 0 0 128px;
     border: 1px solid #e74f4d;
 
     width: 170px;
@@ -587,15 +576,16 @@ button.searchmore2{
 
     font-family: 'SimHei';
     font-size: 21px;
+    line-height: 44px;
     text-align: center;
+    text-decoration: none;
 
     color: #e74f4d;
     background-color: #ffffff;
 }
 
 div.three{
-    position: absolute;
-    left: 850px;
+    float: left;
 
     width: 430px;
     height: 521px;
@@ -610,32 +600,24 @@ div.three img.chongdie{
 }
 
 div.rightarr{
-    position: absolute;
-    top: 245px;
-    left: -1px;
+    position: relative;
+    top: -280px;
 
-    border-top: 15.5px solid transparent;
-    border-bottom: 15.5px solid transparent;
+    border-top: 16px solid transparent;
+    border-bottom: 16px solid transparent;
     border-left: 26px solid #ffffff;
 }
 
 div.volunteer{
-    position: absolute;
-    top: 3389px;
-
     width: 1280px;
     height: 749px;
 }
 
 div.content{
-    position: absolute;
-    top: 118px;
-    right: 139px;
-    bottom: 165px;
-    left: 138px;
+    margin: 118px 0 0 138px;
+    /* padding: 118px 0 0 138px; */
 
     width: 1003px;
-    height: 466px;
 }
 
 p.title_vol{
@@ -661,7 +643,6 @@ p.content_vol{
     margin: 14px 290px 0 292px;
 
     width: 421px;
-    height: 31px;
 
     font-family: 'MicrosoftYaHei';
     font-size: 12px;
@@ -676,7 +657,6 @@ div.protocol{
     margin-top: 109px;
 
     width: 288px;
-    height: 280px;
 }
 
 p.pro_title{
@@ -689,11 +669,9 @@ p.pro_title{
 }
 
 p.pro_cont{
-    margin: 0;
-    margin-top: 20px;
+    margin: 20px 0 0 0;
 
     width: 288px;
-	height: 33px;
 
     font-family: 'SimSun';
     font-size: 12px;
@@ -704,7 +682,7 @@ p.pro_cont{
 
 img.more_arr{
     margin-top: 18px;
-    margin-bottom: 39px;
+    margin-bottom: 25px;
     margin-left: 247px;
 }
 
@@ -721,12 +699,11 @@ a.more{
     color: rgba(35, 24, 21, 0.6);
 }
 
-form{
+form.last{
     float: right;
-    margin-top: 106px;
+    margin-top: 109px;
 
     width: 640px;
-    height: 283px;
 }
 
 input.one,
@@ -764,6 +741,8 @@ textarea{
     line-height: 27px;
     color: rgba(35, 24, 21, 0.8);
 
+    resize: none;
+
     background-color: #ececee;
 }
 
@@ -781,11 +760,8 @@ button.submit{
 }
 
 div.foot{
-    position: absolute;
-    top: 4138px;
-
-    width: 1280px;
-    height: 361px;
+    width: 100%;
+    height: 358px;
 
     text-align: center;
     
@@ -794,20 +770,18 @@ div.foot{
 
 p.contact{
     margin: 0;
-    margin-top: 81px;
+    padding-top: 91px;
 
     font-family: SimHei;
 	font-size: 21px;
-    line-height: 48px;
+    line-height: 21px;
     
 	color: #ffffff;
 }
 
 p.contac_content{
-    margin: 0;
     margin-left: 407px;
     width: 468px;
-    height: 30px;
     
     font-family: SimSun;
 	font-size: 12px;
@@ -843,62 +817,32 @@ button.sub_contact{
 }
 
 img.contact{
-    position: absolute;
-    top: 261px;
-    left: 550px;
+    display: block;
+    margin: 37px 0 0 550px;
 }
-
-/* img.ten{
-    position: absolute;
-    top: 261px;
-    left: 550px;
-}
-
-img.sina{
-    position: absolute;
-    top: 261px;
-    left: 602px;
-}
-
-img.twi{
-    position: absolute;
-    top: 261px;
-    left: 658px;
-}
-
-img.app{
-    position: absolute;
-    top: 261px;
-    left: 707px;
-} */
 
 footer{
-    position: absolute;
-    top: 4496px;
-
-    width: 1280px;
+    width: 100%;
     height: 58px;
     
     background-color: #2f2f38;
 }
 
 p.left{
-    margin: 0;
-    margin-top: 30px;
-    margin-left: 99px;
+    float: left;
+    margin: 0 0 0 99px;
+    padding-top: 30px;
 
     font-family: SimSun;
-	font-size: 12px;
+    font-size: 12px;
+    line-height: 12px;
 
 	color: #ffffff;
 }
 
 a.right{
-    position: absolute;
-    left: 1174px;
-    bottom: 15px;
-
-    margin: 0;
+    float: left;
+    margin: 33px 0 0 1009px;
 
 	font-family: SimSun;
     font-size: 12px;
