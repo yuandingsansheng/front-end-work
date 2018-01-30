@@ -1,7 +1,7 @@
 body{
     margin: 0;
     width: 100%;
-    height: 4554px;
+    /* height: 4554px; */
 }
 
 div.container_body{
@@ -17,8 +17,8 @@ header{
 
 div.img{
     float: left;
-    margin: 13px 0 0 59px;
 
+    margin: 13px 0 0 59px;
     width: 31px;
     height: 31px;
 
@@ -27,11 +27,13 @@ div.img{
 
 div.title_left{
     float: left;
+
     margin: 18px 0 0 11px;
 
     font-family: SimHei;
     font-size: 21px;
     line-height: 27px;
+
     color: #393a3a;
 }
 
@@ -42,9 +44,10 @@ div.title_right{
     font-family: 'MicrosoftYaHei';
     font-size: 14px;
     line-height: 27px;
-    color: #787b83;
     text-align: left;
     word-spacing: 40px;
+
+    color: #787b83;
 }
 
 div.title_right span{
@@ -53,8 +56,8 @@ div.title_right span{
 
 div.login_img{
     float: left;
-    margin: 16px 0 0 31px;
 
+    margin: 16px 0 0 31px;
     width: 14px;
     height: 17px;
 
@@ -63,10 +66,13 @@ div.login_img{
 
 div.login{
     float: left;
+
     margin: 15px 0 0 5px;
+
     font-family: 'MicrosoftYaHei';
     font-size: 14px;
     line-height: 27px;
+
     color: #e74f4d;
 }
 
@@ -87,6 +93,7 @@ div.pic1{
 
     background-image: url(../images/one.png);
     background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
 }
 
 div.content_time{
@@ -97,6 +104,7 @@ div.content_time{
     font-family: 'MicrosoftYaHei';
     font-size: 60px;
     line-height: 60px;
+
     color:#ffffff;
 }
 
@@ -106,16 +114,17 @@ div.content0{
     left: 124px;
 
     width: 295px;
-    height: 53px;
 
     font-family: 'MicrosoftYaHei';
     font-size: 21px;
     line-height: 28px;
+
     color: #ffffff;
 }
 
 a.start{
     display: block;
+
     position: relative;
     top: 306px;
     left: 126px;
@@ -125,20 +134,24 @@ a.start{
 
     font-family: 'MicrosoftYaHei';
     font-size: 30px;
-    letter-spacing: 3px;
     line-height: 60px;
     text-align: center;
     text-decoration: none;
+    letter-spacing: 3px;
 
     color: #ffffff;
     background-color: #e7504d;
 }
 
 div.ul{
+    margin: 0 auto;
+    width: 1180px;
+    height: 250px;
+
     font-family: 'SimHei';
     font-size: 14px;
+    line-height: 20px;
     text-align: center;
-    line-height: 14px;
 
     color: #767777;
 }
@@ -150,7 +163,10 @@ ul.ul1{
 ul.ul1,
 ul.ul2{
     display: inline-block;
+
     list-style: none;
+
+    padding-left: 0;
 }
 
 p.li{
@@ -167,18 +183,19 @@ ul.ul1 li{
     float: left;
 
     width: 154px;
+
     text-align: center;
 }
 
 ul.ul2{
-    margin-top: -50px;
+    margin-top: -54px;
 }
 
 ul.ul2 li{
     float: left;
 
     width: 1.5px;
-    height: 52px;
+    height: 54px;
 
     background-color: #aaaaaa;
 }
@@ -229,8 +246,7 @@ p.one{
 }
 
 div.line1{
-    margin-top: 10px;
-    margin-left: 601px;
+    margin: 10px 0 0 601px;
 
     width: 31px;
     height: 3px;
@@ -316,7 +332,6 @@ div.beijing{
     left: 148px; 
 
     border: 1px solid #dadada;
-
     width: 219px;
     height: 337px;
 }
@@ -327,7 +342,6 @@ div.shanghai{
     left: 403px;
 
     border: 1px solid #e1e1e1;
-
     width: 219px;
     height: 337px;
 }
@@ -365,6 +379,7 @@ p.act{
 
 p.act0{
     margin: 340px 0 0 0;
+
     font-family: 'SimHei';
     font-size: 15px;
     text-align: center;
@@ -372,6 +387,7 @@ p.act0{
 
 p.act1{
     margin: 8px 0;
+
     font-family: 'MicrosoftYaHei';
     font-size: 12px;
     text-align: center;
@@ -501,7 +517,7 @@ div.last{
 
     font-family: 'SimHei';
     font-size: 21px;
-    line-height: 21px;
+    line-height: 28px;
 }
 
 div.one,
@@ -514,6 +530,7 @@ div.two{
 
 div.one{
     text-align: center;
+
     color: #ffffff;
     background-color: #e74f4d;
 }
@@ -609,14 +626,16 @@ div.rightarr{
 }
 
 div.volunteer{
+    overflow: hidden;
+
     width: 1280px;
     height: 749px;
 }
 
 div.content{
-    margin: 118px 0 0 138px;
-    /* padding: 118px 0 0 138px; */
+    overflow: hidden;
 
+    margin: 118px auto 0;
     width: 1003px;
 }
 
@@ -631,8 +650,7 @@ p.title_vol{
 }
 
 div.line_vol{
-    margin-top: 5px;
-    margin-left: 488px;
+    margin: 11px auto;
     width: 31px;
     height: 3px;
 
@@ -640,8 +658,7 @@ div.line_vol{
 }
 
 p.content_vol{
-    margin: 14px 290px 0 292px;
-
+    margin: 14px auto;
     width: 421px;
 
     font-family: 'MicrosoftYaHei';
@@ -670,7 +687,6 @@ p.pro_title{
 
 p.pro_cont{
     margin: 20px 0 0 0;
-
     width: 288px;
 
     font-family: 'SimSun';
@@ -681,9 +697,7 @@ p.pro_cont{
 }
 
 img.more_arr{
-    margin-top: 18px;
-    margin-bottom: 25px;
-    margin-left: 247px;
+    margin: 18px 0 25px 247px;
 }
 
 a.more{
@@ -701,8 +715,8 @@ a.more{
 
 form.last{
     float: right;
-    margin-top: 109px;
 
+    margin-top: 109px;
     width: 640px;
 }
 
@@ -716,13 +730,14 @@ input.two{
     font-family: SimSun;
     font-size: 12px;
     line-height: 27px;
+
     color: rgba(35, 24, 21, 0.8);
-    
     background-color: #ececee;
 }
 
 input.one{
     float: left;
+
     margin-right: 17px;
 }
 
@@ -739,11 +754,11 @@ textarea{
     font-family: SimSun;
     font-size: 12px;
     line-height: 27px;
+
     color: rgba(35, 24, 21, 0.8);
+    background-color: #ececee;
 
     resize: none;
-
-    background-color: #ececee;
 }
 
 button.submit{
@@ -753,9 +768,9 @@ button.submit{
 
     font-family: SimHei;
 	font-size: 14px;
-	line-height: 27px;
-	color: #323333;
+    line-height: 27px;
     
+	color: #323333;
     background-color: #ececee;
 }
 
@@ -802,7 +817,7 @@ input.mail{
 }
 
 button.sub_contact{
-    margin-left: -4px;
+    margin-left: -5px;
     border: none;
     width: 81px;
 	height: 47px;
@@ -818,10 +833,13 @@ button.sub_contact{
 
 img.contact{
     display: block;
+
     margin: 37px 0 0 550px;
 }
 
 footer{
+    overflow: hidden;
+
     width: 100%;
     height: 58px;
     
@@ -830,8 +848,8 @@ footer{
 
 p.left{
     float: left;
-    margin: 0 0 0 99px;
-    padding-top: 30px;
+
+    margin: 30px 0 0 99px;
 
     font-family: SimSun;
     font-size: 12px;
@@ -842,6 +860,7 @@ p.left{
 
 a.right{
     float: left;
+
     margin: 33px 0 0 1009px;
 
 	font-family: SimSun;
