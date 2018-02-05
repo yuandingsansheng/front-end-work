@@ -12,15 +12,17 @@ div.container_body{
 
 header{
     width: 100%;
-    height: 56px;
+
+    overflow: hidden;
 }
 
 div.img{
     float: left;
 
-    margin: 13px 0 0 59px;
+    margin: 13px 0 11px 59px;
     width: 31px;
     height: 31px;
+    vertical-align: middle;
 
     background-image: url(../images/_编组_.png);
 }
@@ -33,73 +35,95 @@ div.title_left{
     font-family: SimHei;
     font-size: 21px;
     line-height: 27px;
+    vertical-align: middle;
 
     color: #393a3a;
 }
 
-div.title_right{
-    float: left;
-    margin: 17px 0 0 538px;
+ul.title_right{
+    display: inline-block;
+    list-style: none;
+
+    margin-left: 530px;
 
     font-family: 'MicrosoftYaHei';
     font-size: 14px;
-    line-height: 27px;
-    text-align: left;
-    word-spacing: 40px;
+    line-height: 14px;
+    vertical-align: middle;
 
     color: #787b83;
 }
 
-div.title_right span{
+a.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: #787b83;
+}
+
+a.nav:hover{
     color: #e74f4d;
 }
 
-div.login_img{
-    float: left;
-
-    margin: 16px 0 0 31px;
-    width: 14px;
-    height: 17px;
-
-    background-image: url(../images/login.png);
+a.nav:hover div.line0{
+    width: 65px;
+    visibility: visible;
 }
 
-div.login{
+ul.title_right li{
     float: left;
+}
 
-    margin: 15px 0 0 5px;
+ul.title_right li+li{
+    margin-left: 40px;
+}
+
+img.login_img{
+    margin-left: 31px;
+    vertical-align: middle;
+}
+
+a.login{
+    margin-left: 5px;
 
     font-family: 'MicrosoftYaHei';
     font-size: 14px;
     line-height: 27px;
+    text-decoration: none;
+    vertical-align: middle;
 
     color: #e74f4d;
 }
 
 div.line0{
     position: relative;
-    top: 51px;
-    left: 681px;
-
-    width: 65px;
+    top: 20px;
+    width: 1px;
     height: 5px;
+
+    transition: all 0.5s;
+    -moz-transition: all 0.5s; /* Firefox 4 */
+    -webkit-transition: all 0.5s; /* Safari 和 Chrome */
+    -o-transition: all 0.5s; /* Opera */
+    visibility: hidden;
 
     background-color: #e74f4d;
 }
 
 div.pic1{
+    overflow: hidden;
+    
     width: 100%;
     height: 691px;
 
     background-image: url(../images/one.png);
     background-repeat: no-repeat;
-    /* background-size: 100% 100%; */
 }
 
 div.content_time{
-    position: relative;
-    top: 230px;
-    left: 117px;
+    margin: 230px 0 0 117px;
 
     font-family: 'MicrosoftYaHei';
     font-size: 60px;
@@ -109,9 +133,7 @@ div.content_time{
 }
 
 div.content0{
-    position: relative;
-    top: 250px;
-    left: 124px;
+    margin: 30px 0 66px 117px;
 
     width: 295px;
 
@@ -125,10 +147,7 @@ div.content0{
 a.start{
     display: block;
 
-    position: relative;
-    top: 306px;
-    left: 126px;
-
+    margin-left: 117px;
     width: 331px;
     height: 65px;
 
@@ -141,6 +160,12 @@ a.start{
 
     color: #ffffff;
     background-color: #e7504d;
+}
+
+a.start:hover {
+    cursor: pointer;
+    background-color: #fc7c7a;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 div.ul{
@@ -301,6 +326,12 @@ button.search{
 
     color: #ffffff;
     background-color: #be4e48;
+
+    cursor: pointer;
+}
+
+button.search:hover{
+    background-color: #fc7c7a;
 }
 
 div.act{
@@ -312,19 +343,6 @@ div.act{
     background-repeat: no-repeat;
     background-position: 156px 112px;
 }
-
-/* div.text_img{
-    position: relative;
-    top: 104px;
-    left: 221px; 
-
-    width: 838px;
-    height: 385px;
-
-    background-image: url(../images/text_img.png);
-    background-repeat: no-repeat;
-} */
-
 
 div.beijing{
     position: relative;
@@ -386,7 +404,7 @@ p.act0{
 }
 
 p.act1{
-    margin: 8px 0;
+    margin: 6px 0;
 
     font-family: 'MicrosoftYaHei';
     font-size: 12px;
@@ -401,6 +419,7 @@ div.newworld{
 }
 
 div.pic_left{
+    position: relative;
     float: left;
 
     width: 850px;
@@ -430,17 +449,15 @@ p.text_time{
 }
 
 p.time{
-    margin-top: 28;
-    margin-left: 349px;
-
     font-size: 21px;
     line-height: 21px;
-    text-align: left;
+    text-align: center;
 }
 
 div.tri-left{
-    position: relative;
-    top: -160px;
+    position: absolute;
+    top: 268px;
+    right: 0;
 
     border-top: 15.5px solid transparent;
     border-right: 26px solid #ffffff;
@@ -546,8 +563,7 @@ div.two p{
 }
 
 div.line2{
-    margin-left: 198px;
-
+    margin: 0 auto;
     width: 31px;
     height: 3px;
 
@@ -555,8 +571,7 @@ div.line2{
 }
 
 div.line3{
-    margin-left: 198px;
-
+    margin: 0 auto;
     width: 31px;
     height: 3px;
 
@@ -566,7 +581,7 @@ div.line3{
 a.searchmore1{
     display: block;
 
-    margin: 25px 0 0 128px;
+    margin: 25px auto 0;
     border: 1px solid #ffffff;
 
     width: 170px;
@@ -575,17 +590,22 @@ a.searchmore1{
     font-family: 'SimHei';
     font-size: 21px;
     line-height: 44px;
-    text-align: center;
     text-decoration: none;
 
     color: #ffffff;
     background-color: #e74f4d;
 }
 
+a.searchmore1:hover{
+    border:1px solid #999797;
+    background-color: #fff;
+    color: black;
+}
+
 a.searchmore2{
     display: block;
 
-    margin: 25px 0 0 128px;
+    margin: 25px auto 0;
     border: 1px solid #e74f4d;
 
     width: 170px;
@@ -594,14 +614,22 @@ a.searchmore2{
     font-family: 'SimHei';
     font-size: 21px;
     line-height: 44px;
-    text-align: center;
     text-decoration: none;
 
     color: #e74f4d;
     background-color: #ffffff;
 }
 
+a.searchmore2:hover,
+a.more_button:hover
+{
+    border:1px solid #d3cece;
+    background-color: #e74f4d;
+    color: #fff;
+}
+
 div.three{
+    position: relative;
     float: left;
 
     width: 430px;
@@ -617,8 +645,8 @@ div.three img.chongdie{
 }
 
 div.rightarr{
-    position: relative;
-    top: -280px;
+    position: absolute;
+    top: 240px;
 
     border-top: 16px solid transparent;
     border-bottom: 16px solid transparent;
@@ -772,6 +800,8 @@ button.submit{
     
 	color: #323333;
     background-color: #ececee;
+
+    cursor: pointer;
 }
 
 div.foot{
@@ -795,17 +825,27 @@ p.contact{
 }
 
 p.contac_content{
-    margin-left: 407px;
+    margin: 11px auto 0;
     width: 468px;
     
     font-family: SimSun;
 	font-size: 12px;
-	line-height: 18px;
+    line-height: 18px;
+
 	color: #ffffff;
 }
 
+form.submit{
+    display: flex;
+    justify-content: center;
+    margin-top:30px;
+}
+
 input.mail{
-    margin-top:30px; 
+    float: left;
+    -webkit-appearance: none;
+    padding: 0;
+    border: 0;
     width: 431px;
     height: 41px;
     
@@ -813,14 +853,14 @@ input.mail{
 	font-size: 14px;
 	line-height: 26px;
 
-	color: #aaaaaa;
+    color: #aaaaaa;
 }
 
 button.sub_contact{
-    margin-left: -5px;
+    float: left;
     border: none;
     width: 81px;
-	height: 47px;
+	height: 41px;
 
 	font-family: MicrosoftYaHei;
     font-size: 15px;
@@ -829,6 +869,8 @@ button.sub_contact{
 
     color: #ffffff;
     background-color: #6f7278;
+
+    cursor: pointer;
 }
 
 img.contact{
