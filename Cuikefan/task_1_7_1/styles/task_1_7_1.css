@@ -1,14 +1,14 @@
 body{
     margin: 0;
+    padding: 0;
     width: 100%;
-    /* height: 4554px; */
+    min-width: 1280px;
 }
 
-div.container_body{
-    margin: 0 auto;
-    width: 1280px;
-    height: 100%;
-}
+/* div.container_body{
+    margin: 0 auto; 
+     width: 1280px;
+} */
 
 header{
     width: 100%;
@@ -44,7 +44,7 @@ ul.title_right{
     display: inline-block;
     list-style: none;
 
-    margin-left: 530px;
+    margin-left: 42%;
 
     font-family: 'MicrosoftYaHei';
     font-size: 14px;
@@ -120,6 +120,7 @@ div.pic1{
 
     background-image: url(../images/one.png);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 div.content_time{
@@ -195,13 +196,13 @@ ul.ul2{
 }
 
 p.li{
-    margin: 46px 0 0 0;  
+    margin: 46px 0 0 0; 
 
     text-align: center;
 }
 
 ul.ul1 li+li{
-    margin-left: 170px;
+    margin-left: 180px;
 }
 
 ul.ul1 li{
@@ -210,6 +211,19 @@ ul.ul1 li{
     width: 154px;
 
     text-align: center;
+}
+
+li.first::after,
+li.sec::after,
+li.third::after{
+    display: block;
+    float: left;
+    content: "";
+    margin-left: 227px;
+    margin-top: -40px;
+    width: 2px;
+    height: 50px;
+    background: #aaaaab;
 }
 
 ul.ul2{
@@ -259,6 +273,7 @@ div.city_banner{
     text-align: center;
 
     background-image: url(../images/bann.png);
+    background-size: cover;
 }
 
 p.one{
@@ -271,7 +286,7 @@ p.one{
 }
 
 div.line1{
-    margin: 10px 0 0 601px;
+    margin: 10px auto 0;
 
     width: 31px;
     height: 3px;
@@ -345,9 +360,8 @@ div.act{
 }
 
 div.beijing{
-    position: relative;
-    top: 101px;
-    left: 148px; 
+    float: left;
+    margin: 101px 0 0 148px;
 
     border: 1px solid #dadada;
     width: 219px;
@@ -355,9 +369,8 @@ div.beijing{
 }
 
 div.shanghai{
-    position: relative;
-    top: -188px;
-    left: 403px;
+    float: left;
+    margin: 152px 0 0 32px;
 
     border: 1px solid #e1e1e1;
     width: 219px;
@@ -365,9 +378,8 @@ div.shanghai{
 }
 
 div.shenzhen{
-    position: relative;
-    top: -580px;
-    left: 659px;
+    float: left;
+    margin: 100px 0 0 37px;
 
     border: 1px solid #e1e1e1;
 
@@ -376,9 +388,8 @@ div.shenzhen{
 }
 
 div.hongkong{
-    position: relative;
-    top: -920px;
-    left: 915px;
+    float: left;
+    margin: 100px 0 0 30px;
 
     border: 1px solid #e1e1e1;
 
@@ -414,15 +425,15 @@ p.act1{
 }
 
 div.newworld{
+    overflow: hidden;
     width: 100%;
-    height: 567px;
 }
 
 div.pic_left{
     position: relative;
     float: left;
 
-    width: 850px;
+    width: 68%;
     height: 566px;
 
     font-family: 'MicrosoftYaHei';
@@ -431,7 +442,7 @@ div.pic_left{
     color: #ffffff;
     background-image: url(../images/pic_left.png);
     background-repeat: no-repeat;
-    background-position-y: -1304px;
+    background-size: cover;
 }
 
 p.newworld{
@@ -467,16 +478,17 @@ div.tri-left{
 div.pic_right{
     float: left;
 
-    width: 430px;
+    width: 32%;
     height: 567px;
 }
 
 div.pic_right img{
-    margin: 165px 0 0 163px;
+    display: block;
+    margin: 165px auto 0;
 }
 
 div.pic_right p{
-    margin-left: 72px;
+    margin: 14px auto;
     width: 288px;
 
     font-family: 'SimSun';
@@ -489,7 +501,7 @@ div.pic_right p{
 a.more_button{
     display: block;
 
-    margin-left: 165px;
+    margin: 0 auto;
     border: 1px solid #e25c60;
     width: 107px;
     height: 35px;
@@ -507,7 +519,7 @@ a.more_button{
 div.round_black{
     float: left;
 
-    margin: 24px 0 0 186px;
+    margin: 24px 0 0 180px;
     border: 1px solid #929292;
     border-radius: 1em;
     width: 12px;
@@ -529,8 +541,8 @@ div.round{
 }
 
 div.last{
+    overflow: hidden;
     width: 100%;
-    height: 521px;
 
     font-family: 'SimHei';
     font-size: 21px;
@@ -541,7 +553,7 @@ div.one,
 div.two{
     float: left;
 
-    width: 425px;
+    width: 34%;
     height: 521px;
 }
 
@@ -632,7 +644,7 @@ div.three{
     position: relative;
     float: left;
 
-    width: 430px;
+    width: 32%;
     height: 521px;
 
     background-image: url(../images/last_pic1.png);
@@ -656,7 +668,7 @@ div.rightarr{
 div.volunteer{
     overflow: hidden;
 
-    width: 1280px;
+    /* width: 1280px; */
     height: 749px;
 }
 
@@ -876,7 +888,7 @@ button.sub_contact{
 img.contact{
     display: block;
 
-    margin: 37px 0 0 550px;
+    margin: 37px auto 0;
 }
 
 footer{
@@ -901,9 +913,9 @@ p.left{
 }
 
 a.right{
-    float: left;
+    float: right;
 
-    margin: 33px 0 0 1009px;
+    margin: 33px 10px 0 0;
 
 	font-family: SimSun;
     font-size: 12px;
