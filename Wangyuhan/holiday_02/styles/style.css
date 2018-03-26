@@ -12,6 +12,8 @@ body {
     height: 200px;
 
     background: url(../images/head.jpg) no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .head-part>div {
