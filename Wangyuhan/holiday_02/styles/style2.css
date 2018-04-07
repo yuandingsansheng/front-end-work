@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    margin: 20px 0 0 40px;
+    border-bottom: rgba(86, 117, 112, 0.45) solid 1.2px;
+    width: 600px;
+    height: 160px;
+}
+
+.content:last-child {
+    border: none;
+}
+
+.content li {
+    list-style: none;
+}
+
+.content li::before{
+    content: "●";
+    color: #0093DD;
+    
+}
+
+.content li a {
+    margin-left: 5px;
+    font-size: 16px;
+    font-family: "宋体";
+    font-weight: bold;
+    text-decoration: none;
+    
+    color: #0093DD;
+}
+
+.content p {
+    margin-top: 15px;
+
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #727070;
+    cursor: default;
+}
+
+.content p span {
+    margin-right: 15px;
+}
+
+#content {
+    text-indent: 2em;
+}
+
+#keywords a{
+    margin-left: 15px;
+    text-decoration: none;
+    color: #0093DD;
+}
+
+.digg {
+    margin: 30px 0 0 40px;
+    width: 600px;
+    
+    font-size: 13px;
+	text-align: center;
+}
+
+.digg a {
+	margin: 1px;
+	border: #aaaadd 1px solid;
+	padding: 2px 5px;
+    
+	text-decoration: none;
+    color: #727070;
+    background-color: #ecf7fe;
+}
+
+.digg a:hover,
+.digg a:active {
+	border: #ffffff 1px solid;
+	color: #0093DD;
+}
+
+.digg span.current {
+    margin: 2px;
+	padding: 2px 5px;
+    
+    color: #0093DD;
+	background-color: #ffffff;
+}
+
+.digg span.disabled {
+    margin: 2px;
+    padding: 2px 0;
+
+	color: #ddd;
+}
+
+.page-number {
+    margin: 0 10px;
+}
+
+.digg span input {
+    width: 4em;
+    text-align: center;
+}

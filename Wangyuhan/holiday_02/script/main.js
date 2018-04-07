@@ -1,7 +1,7 @@
-let slideShowContainer = document.getElementById('slideShowContainer');
-let pic = document.getElementById('picUl').getElementsByTagName('li');
-let dot = document.getElementById('dotUl').getElementsByTagName('li');
-let title = document.getElementById('titleDiv').getElementsByTagName('span');
+const slideShowContainer = document.getElementById('slideShowContainer');
+const pic = document.getElementById('picUl').getElementsByTagName('li');
+const dot = document.getElementById('dotUl').getElementsByTagName('li');
+const title = document.getElementById('titleDiv').getElementsByTagName('span');
 let index = 0;
 let timer = null;
 
@@ -43,9 +43,9 @@ for (let i = 0; i < dot.length; i++) {
 }
 
 window.onload = function () {
-  let myUl = document.querySelectorAll('#tab > ul')[0];// 一个节点
-  let myLi = myUl.getElementsByTagName('li'); // 数组
-  let myDiv = document.querySelectorAll('#tab > div'); // 数组
+  const myUl = document.querySelectorAll('#tab > ul')[0];// 一个节点
+  const myLi = myUl.getElementsByTagName('li'); // 数组
+  const myDiv = document.querySelectorAll('#tab > div'); // 数组
 
   for (let i = 0; i < myLi.length; i++) {
     myLi[i].index = i;

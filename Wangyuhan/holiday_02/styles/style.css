@@ -147,8 +147,13 @@ body {
 .navBar ul li a:hover,
 .navBar ul li a:focus {
     color: #FFFFFF;
+    transition: color 0.2s;
 }
 
+iframe {
+    margin:0 auto; 
+    text-align: center;
+}
 .body-part {
     margin: 20px auto;
     width: 960px;
